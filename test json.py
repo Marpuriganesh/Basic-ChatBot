@@ -11,4 +11,4 @@ print(dic)
 test = pd.DataFrame(dic)
 print(test)
 
-test.to_json("test.json")
+test.to_json("test2.json")
