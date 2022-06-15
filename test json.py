@@ -12,3 +12,5 @@ test = pd.DataFrame(dic)
 print(test)
 
 test.to_json("test2.json")
+test.to_csv("test.csv")
+test.to_pickle("test.file")
